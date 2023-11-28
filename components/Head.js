@@ -7,7 +7,7 @@ const Head = ({Title}) => {
   return (
     <View style={styles.headComp}>
         <Text style={styles.headLabel}>Live</Text>
-        <Text style={styles.headTitle}>{Title}</Text>
+        <Text style={styles.headTitle}> -{Title}</Text>
     </View>
   )
 }
